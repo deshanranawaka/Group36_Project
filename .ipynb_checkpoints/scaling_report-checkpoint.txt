@@ -1,0 +1,18 @@
+REDDIT ANALYSIS BENCHMARK
+=========================
+SCENARIO: Horizontal - 1 Worker
+WARNING: Using incubator modules: jdk.incubator.vector
+26/03/20 10:29:31 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/03/20 10:29:33 INFO SparkContext: Running Spark version 4.1.1
+26/03/20 10:29:33 INFO SparkContext: OS info Linux, 5.15.0-91-generic, amd64
+26/03/20 10:29:33 INFO SparkContext: Java version 17.0.18+8-Ubuntu-122.04.1
+26/03/20 10:29:33 INFO ResourceUtils: ==============================================================
+26/03/20 10:29:33 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/03/20 10:29:33 INFO ResourceUtils: ==============================================================
+26/03/20 10:29:33 INFO SparkContext: Submitted application: Group36-Reddit-Final-Project
+26/03/20 10:29:33 INFO SecurityManager: Changing view acls to: ubuntu
+26/03/20 10:29:33 INFO SecurityManager: Changing modify acls to: ubuntu
+26/03/20 10:29:33 INFO SecurityManager: Changing view acls groups to: ubuntu
+26/03/20 10:29:33 INFO SecurityManager: Changing modify acls groups to: ubuntu
+26/03/20 10:29:33 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: ubuntu groups with view permissions: EMPTY; users with modify permissions: ubuntu; groups with modify permissions: EMPTY; RPC SSL disabled
