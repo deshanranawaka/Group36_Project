@@ -5,7 +5,7 @@ This project performs large-scale text analysis on Reddit data using a distribut
 
 ## Architecture Diagram
 The system is deployed on the Swedish Science Cloud (OpenStack) using a Master-Worker architecture.
-'
+
 graph TD
     subgraph Local_Machine
         A[Project Repo] --> B[scripts/deploy.sh]
@@ -24,7 +24,7 @@ graph TD
         D -- Tasks --> F[Worker 1: 192.168.5.97]
         D -- Tasks --> G[Worker 2: 192.168.5.28]
         D -- Tasks --> H[Worker 3: 192.168.5.181]
-    end'
+    end
 
 - Master Node: Coordinates job scheduling and hosts the Spark UI on port 4040.
 - Worker Nodes: Three ALIVE workers providing a total of 6 cores for parallel processing.
@@ -61,7 +61,7 @@ graph TD
 'chmod +x scripts/deploy.sh
 ./scripts/deploy.sh'
 
-4. Running Benchmarks
+4. Running Benchmarks \
 The project is designed to measure performance across three distinct scaling scenarios.
 - Horizontal Scaling: 1 Worker vs. 2 Workers vs. 3 Workers
 - Vertical Compute: 1 Core vs. 2 Cores on a single worker
