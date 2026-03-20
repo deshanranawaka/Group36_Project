@@ -46,6 +46,10 @@ graph TD
 | `scripts/deploy.sh` | Bash script to sync the local `src/` directory to the remote master node via rsync. |
 | `scripts/run_benchmark.sh` | Orchestrates the horizontal and vertical scaling tests across the cluster. |
 | `scripts/parse_results.py` | Python helper to extract runtimes from `scaling_report.txt` for performance analysis. |
+| `scripts/plot_words.py` | Generates word frequency visualizations from results. |
+| `scripts/plot_vertical_memory.py` | Visualizes memory scaling performance. |
+| `scripts/plot_vertical_compute.py` | Visualizes CPU core scaling performance. |
+| `scripts/plot_horizontal.py` | Visualizes worker node scaling performance |
 | `notebooks/` | Jupyter notebooks used for initial data exploration and prototyping. |
 | `docs/` | Project documentation, including contribution statements |
 
