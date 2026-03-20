@@ -4,8 +4,9 @@ Scalable Data Engineering Solution Design & Implementation
 This project performs large-scale text analysis on Reddit data using a distributed Spark cluster. It identifies the top 10 most frequent words (excluding NLTK stopwords) and conducts performance benchmarks across different scaling scenarios.
 
 ## Architecture Diagram
-The system is deployed on the Swedish Science Cloud (OpenStack) using a Master-Worker architecture. \
-`
+
+The system is deployed on the Swedish Science Cloud (OpenStack) using a Master-Worker architecture.
+
 ```mermaid
 graph TD
     subgraph Local_Machine
@@ -26,6 +27,7 @@ graph TD
         D -- Tasks --> G[Worker 2: 192.168.5.28]
         D -- Tasks --> H[Worker 3: 192.168.5.181]
     end
+
 
 - Master Node: Coordinates job scheduling and hosts the Spark UI on port 4040.
 - Worker Nodes: Three ALIVE workers providing a total of 6 cores for parallel processing.
