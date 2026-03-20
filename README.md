@@ -6,6 +6,7 @@ This project performs large-scale text analysis on Reddit data using a distribut
 ## Architecture Diagram
 The system is deployed on the Swedish Science Cloud (OpenStack) using a Master-Worker architecture. \
 `
+```mermaid
 graph TD
     subgraph Local_Machine
         A[Project Repo] --> B[scripts/deploy.sh]
@@ -25,7 +26,7 @@ graph TD
         D -- Tasks --> G[Worker 2: 192.168.5.28]
         D -- Tasks --> H[Worker 3: 192.168.5.181]
     end
-`
+
 - Master Node: Coordinates job scheduling and hosts the Spark UI on port 4040.
 - Worker Nodes: Three ALIVE workers providing a total of 6 cores for parallel processing.
 - Storage: HDFS handles the large Reddit JSON corpus.
