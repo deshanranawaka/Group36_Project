@@ -27,7 +27,7 @@ graph TD
         D -- Tasks --> G[Worker 2: 192.168.5.28]
         D -- Tasks --> H[Worker 3: 192.168.5.181]
     end
-
+```
 
 - Master Node: Coordinates job scheduling and hosts the Spark UI on port 4040.
 - Worker Nodes: Three ALIVE workers providing a total of 6 cores for parallel processing.
